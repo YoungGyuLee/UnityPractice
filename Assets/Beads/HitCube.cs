@@ -6,11 +6,6 @@ public class HitCube : MonoBehaviour
 {
 
     public GameObject splashEffect;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
@@ -23,7 +18,7 @@ public class HitCube : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.Mouse0))
                 {
-                    Instantiate(splashEffect, hit.collider.transform.position, Quaternion.identity);
+                    Instantiate(splashEffect, hit.collider.transform.position, Quaternion.Euler(new Vector3(0.0f,0.0f,1.0f)));
                 }
             }
         }
