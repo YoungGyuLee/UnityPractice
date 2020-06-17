@@ -681,5 +681,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Waterfall
       objectReference: {fileID: 0}
+    - target: {fileID: 8804245104508016396, guid: 668f24ef0c380824e9b84598724ac0b8,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 668f24ef0c380824e9b84598724ac0b8, type: 3}
